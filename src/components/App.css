@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+ul.NavBar  {
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  overflow: hidden; 
+  text-align: center;
+  margin: 0px;
+  padding: 0px 8em;
+}
+
+.NavBar li {
+  list-style: none;
+  float: left;  
+  font-size: 1.3em;
+}
+.NavBar a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 0.8em 1.0em;
+  text-decoration: none;
+  font-family:  'Inconsolata', monospace;
+}
+
+.NavBar a:hover {
+  color: #fff;
+}
+
+div.hero {
+  background-image: url("../assets/hero-large.jpeg");
+}
+

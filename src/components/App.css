@@ -1,34 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
-ul.NavBar  {
-  background: rgba(0, 0, 0, 0.4);
-  top: 0;
-  overflow: hidden; 
-  text-align: center;
-  margin: 0px;
-  padding: 0px 8em;
+nav{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left:0px;
+  width: 100%;
+  z-index: 1;
 }
 
-.NavBar li {
+nav::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+nav ul li {
   float: left;  
   font-size: 1.3em;
 }
-.NavBar a {
-  display: block;
-  color: #000000;
+nav ul li a {
+  display: inline-block;
+  color: #a8a8a8;
   text-align: center;
-  padding: 0.8em 1.0em;
+  padding: 1em 1.2em;
   text-decoration: none;
+  position: relative;
   font-family:  'Inconsolata', monospace;
 }
 
-.NavBar a:hover {
+nav ul li a:hover {
   color: #fff;
 }
-
-div.hero {
-  background-image: url("../assets/hero-large.jpeg");
+nav ul li a#home{
+  padding-left: 6em;
 }
 
+header{
+  height: 50em;
+  background: #3d0102 url(../assets/hero-large.jpeg) no-repeat center bottom;
+  position: relative;
+}
+
+header div.hero {
+  text-align: center;
+  font-size: 2em;
+  vertical-align: 
+}

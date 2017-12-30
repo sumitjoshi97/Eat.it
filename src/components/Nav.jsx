@@ -1,18 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Header = () => {
+const Nav = () => {
     return (
-        <header>
             <nav>
                 <ul className="NavBar">
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/" id="home">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
-        </header>
     )
 }
 
-export default Header;
+export default Nav;

@@ -25,7 +25,7 @@ nav ul {
 
 nav ul li {
   float: left;  
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 nav ul li a {
   display: inline-block;
@@ -71,6 +71,13 @@ header div.hero div.subHeading {
 section.Section {
   display: flex;
   flex-direction: row;
+  font-size: 1.3em;
+}
+
+section.Section h2{
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Courgette', sans-serif;
 }
 
 section#Service div#imageServ {
@@ -80,4 +87,11 @@ section#Service div#imageServ {
 
 section#Service div#Servpara {
   flex: 1;
+}
+
+section#about {
+  display: block;
+  padding: 4em 20em;
+  text-align: center;
+
 }

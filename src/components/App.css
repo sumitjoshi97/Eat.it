@@ -67,3 +67,17 @@ header div.hero div.subHeading {
   font-size: 1.2em;
   font-family: sans-serif;
 }
+
+section.Section {
+  display: flex;
+  flex-direction: row;
+}
+
+section#Service div#imageServ {
+  flex:1;
+
+}
+
+section#Service div#Servpara {
+  flex: 1;
+}

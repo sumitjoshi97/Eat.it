@@ -4,10 +4,13 @@ const Home = () => {
     return (
         <header>
             <div className="hero">
-                <div className="heading">The way to eat</div>
-                <div className="subHeading">Nyet Restaurant</div>
+                <div className="heading">Nyet Restaurant</div>
+                <br/>
+                <div className="subHeading">the way to eat</div>
             </div>
         </header>
+
+        
     )
 }
 

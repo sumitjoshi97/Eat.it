@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
 nav{
-  position: absolute;
+  position: fixed;
   background: rgba(0, 0, 0, 0.5);
   top: 0px;
   left:0px;
   width: 100%;
   z-index: 1;
+  padding: 0 8em;
 }
 
 nav::after {
@@ -39,18 +40,30 @@ nav ul li a {
 nav ul li a:hover {
   color: #fff;
 }
-nav ul li a#home{
-  padding-left: 6em;
-}
+
 
 header{
-  height: 50em;
-  background: #3d0102 url(../assets/hero-large.jpeg) no-repeat center bottom;
+  height: 48em;
+  background: #00000028 url(../assets/hero-large.jpeg) no-repeat center bottom;
+  background-attachment: fixed;
   position: relative;
 }
 
 header div.hero {
   text-align: center;
+  font-size: 2em; 
+  padding: 9.5em 0;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.295);  
+}
+
+header div.hero div.heading {
   font-size: 2em;
-  vertical-align: 
+  font-family: 'Courgette', sans-serif;
+ 
+}
+
+header div.hero div.subHeading {
+  font-size: 1.2em;
+  font-family: sans-serif;
 }

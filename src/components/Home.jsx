@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 
 const Home = () => {
     return (
+        <div id="page">
         <header>
             <div className="hero">
                 <div className="heading">Nyet Restaurant</div>
@@ -10,6 +11,12 @@ const Home = () => {
             </div>
         </header>
 
+        <section id="Service" className="Section">
+            <div id="imageServ">
+                <img src="../assets/Service.jpeg" alt="Service"/>
+            </div>
+        </section>
+        </div>
         
     )
 }

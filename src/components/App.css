@@ -44,10 +44,7 @@ nav ul li a:hover {
   color: #fff;
 }
 
-nav p {
-  font-size: 14px;
-  right:0px;
-}
+
 /* Header Hero */
 
 header {
@@ -227,7 +224,6 @@ div#ReserveHero {
   position: relative;
   height: 30em;
   text-align: center;
-  
 }
 
 div#ReserveHero h3 {

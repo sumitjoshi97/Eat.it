@@ -12,6 +12,7 @@ const Nav = () => {
                     <li><Link to="/reserve">Reserve</Link></li>
                     <li><HashLink to="/#contact">Contact</HashLink></li>
                 </ul>
+                <Link to="/">Nyet</Link>
             </nav>
         </div>
             

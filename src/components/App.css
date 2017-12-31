@@ -5,7 +5,7 @@
 
 nav {
   position: fixed;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   top: 0px;
   left: 0px;
   width: 100%;
@@ -44,7 +44,10 @@ nav ul li a:hover {
   color: #fff;
 }
 
-
+nav p {
+  font-size: 14px;
+  right:0px;
+}
 /* Header Hero */
 
 header {
@@ -223,15 +226,49 @@ div#ReserveHero {
   background-attachment: fixed;
   position: relative;
   height: 30em;
+  text-align: center;
   
 }
 
 div#ReserveHero h3 {
   font-size: 3em;
-  font-family:  'Inconsolata', monospace;
-  text-align: center;
+  font-family: 'Courgette', sans-serif;
   color: #252525;
   padding-top: 5em;
   margin: 0;
 }
 
+div#ReserveHero p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  font-family:  'Inconsolata', monospace;
+}
+
+
+div#Book {
+  text-align: center;
+  padding: 4em 0;
+  font-size: 1.2em;
+}
+
+div#ReserveDetails {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4em ;
+  padding: 0 4em;
+}
+div#ReserveDetails h4 {
+  font-size: 1.5em;
+  margin-top: 0;
+  font-family: 'Courgette', sans-serif;
+}
+
+div#ReserveDetails div#ByPhone {
+  flex:1;
+}
+
+div#ReserveDetails div#Events {
+  flex:1;
+}
